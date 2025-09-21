@@ -14,8 +14,8 @@ int main() {
 // Set up all variables
 string first_name, last_name, full_name; // holds customer name
 string product = "shirts";
-int amount_purchase; 
-double cost_each = 14.99;
+int amount_purchase; // holds amount purchased
+double cost_each = 9.99;
 double total_cost = amount_purchase * cost_each;
 
 
