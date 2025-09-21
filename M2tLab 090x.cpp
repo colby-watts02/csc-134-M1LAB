@@ -19,6 +19,12 @@ double total_cost;
 
 // Greet the customer
 cout << "Welcome to our " << product << " shop!" << endl;
+cout << "What's your name? ";
+cin >> first_name;
+cout << "What's your last name? ";
+cin >> last_name;
+full_name = first_name + " " + last_name;
+cout << "Nice to meet you, " << first_name << last_name << endl;
 
 
 
